@@ -24,4 +24,12 @@ public class Driver {
     public void setTransport(Transport transport) {
         this.transport = transport;
     }
+
+    @Override
+    public String toString() {
+        return "Driver{" +
+                "name='" + name + '\'' +
+                ", transport=" + transport +
+                '}';
+    }
 }
